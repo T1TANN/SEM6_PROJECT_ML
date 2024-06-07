@@ -1,0 +1,31 @@
+{
+<<<<<<< HEAD
+    "version": 2,
+    "builds": [
+        {
+            "src": "/api/model.py",
+            "use": "@vercel/python"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "api/model.py"
+        }
+    ]
+=======
+  "version": 2,
+  "builds": [
+      {
+          "src": "api/main.py",
+          "use": "@vercel/python"
+      }
+  ],
+  "routes": [
+      {
+          "src": "/(.*)",
+          "dest": "api/main.py"
+      }
+  ]
+>>>>>>> d7522f5864cdae7ecde1c5855b469489aedec1c6
+}
